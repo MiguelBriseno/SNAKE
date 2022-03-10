@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: linear-gradient(to bottom right, rgb(117, 193, 238), rgb(23, 82, 190));
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    padding-top: 2rem;
+    text-align: center;
+    color: white;
+    font-family: 'Nunito';
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.cuadrilla{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(189, 187, 187);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.cuadrilla div{
+    width: 20px;
+    height: 20px;
+}
+.serpiente{
+    background-color: rgb(55, 158, 55);
+}
+.manzana{
+    background-color: rgb(163, 47, 47);
+    border-radius: 2rem;
+}
+.popup{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
