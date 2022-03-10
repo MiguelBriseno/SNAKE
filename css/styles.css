@@ -32,6 +32,7 @@ h1{
 .cuadrilla div{
     width: 20px;
     height: 20px;
+    border: 1px rgb(179, 177, 177) solid;
 }
 .serpiente{
     background-color: rgb(55, 158, 55);
